@@ -1,0 +1,31 @@
+body{
+  background-color: #f4f4f4;
+  color: #404044;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 50px auto;
+  max-width: 650px; 
+}
+
+h1{
+  text-align: center;
+}
+
+.info{
+  margin: 10px;
+}
+
+.link-box{
+  background-color: #ebe7e7 ;
+  border: #404044 2px solid;
+  max-width: 450px;
+  margin: 1% 5%;
+  line-height: 1.2em;
+  padding: 1%;
+}
+
+#link-boxes{
+  grid-template-columns: repeat(1fr, 1fr, 1fr);
+  display: grid;
+}
